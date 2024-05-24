@@ -1,0 +1,142 @@
+.sign-up-page-container,
+.login-page-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+
+
+.sign-up-section-container {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 650px;
+    border-style: solid;
+    border-color: #2D94B4;
+    border-radius: 20px;
+    position: relative;
+    top: 40px;
+}
+
+.header-text {
+    position: relative;
+    bottom: 0%;
+}
+
+.login-header-text {
+    position: relative;
+
+}
+
+.header-text h2,
+.login-header-text h2 {
+    font-size: 40px;
+}
+
+.input-container {
+    margin: 10px 0 15px 0;
+}
+
+.input {
+    margin: 20px 10px;
+    width: 450px;
+}
+
+.input input {
+    width: 100%;
+    padding: 12px 20px 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: #EFEFEF;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+}
+
+.sign-up-button {
+    margin-bottom: 30px;
+}
+
+.sign-up-footer-text p,
+.login-footer-text p {
+    color: #ABA8A8;
+    font-size: 14px;
+}
+
+.sign-up-footer-text a,
+.login-footer-text a {
+    color: #2D94B4;
+    font-size: 14px;
+    margin-left: 7px;
+}
+
+.login-section-container {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 650px;
+    height: 650px;
+    border-style: solid;
+    border-color: #2D94B4;
+    border-radius: 20px;
+    position: relative;
+    top: 80px;
+    left: 40px;
+}
+
+.login-picture-container {
+    margin-left: 50px;
+}
+
+.login-checkbox {
+    position: relative;
+    bottom: 25px;
+}
+
+.login-checkbox input[type="checkbox"] {
+  /* removing default appearance */
+  /* creating a custom design */
+  width: 1.6em;
+  height: 1.6em;
+  border-radius: 0.15em;
+  margin-right: 0.5em;
+  border: 0.15em solid #007a7e;
+  outline: none;
+  cursor: pointer;
+}
+
+.login-checkbox label{
+    color: #8B8B8B;
+    font-size: 14px;
+    position: relative;
+    bottom: 2px;
+}
+
+.login-checkbox a {
+    font-size: 14px;
+    margin-left: 190px;
+    position: relative;
+    bottom: 2px;
+}
+
+.login-footer-section {
+    margin-top: 40px;
+}
+
+.login-footer-text {
+    text-align: center;
+}
+
+.show-password-button {
+    background: transparent;
+    border: none;
+    position: relative;
+    bottom: 45px;
+    left: 90%;
+    cursor: pointer;
+}

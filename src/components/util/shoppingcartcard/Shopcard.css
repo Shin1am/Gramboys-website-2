@@ -1,0 +1,49 @@
+.shopcard {
+    width: 700px;
+    height: 190px;
+    border: solid 1px #000;
+    border-radius: 20px;
+    display: flex;
+    font-family: "Noto Sans Thai", sans-serif;
+    margin-bottom: 30px;
+}
+
+.shopcard-img {
+    width: 200px;
+    height: 120px;
+    margin: 30px 50px 30px 30px;
+}
+
+.shopcard-details {
+    padding-top: 30px;
+}
+
+.shopcard-title {
+    font-size: 20px;
+}
+
+.shopcard-description {
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.15);
+}
+
+.price h3 {
+    font-size: 17px;
+    padding-top: 55px;
+    color: #266B9A;
+}
+
+.delete-button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    left: 180%;
+    bottom: 25px;
+    transition: all 0.2s linear;
+}
+
+.delete-button:hover {
+    transform: scale(1.1);
+    transition: all 0.2s linear;
+}

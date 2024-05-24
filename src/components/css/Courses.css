@@ -1,0 +1,127 @@
+.home-container,
+.home-ac-container {
+    width: auto;
+}
+
+.home-container-text {
+    position: relative;
+    color: #0E4B74;
+    font-size: 35px;
+    top: 60px;
+    left: 60px;
+}
+
+.home-container-text p {
+    width: 300px;
+}
+
+.home-container-button {
+    position: sticky;
+    display: flex;
+    justify-content: right;
+    padding-right: 50px;
+    padding-top: 50px;
+}
+
+
+.home-text-rectangle {
+    position: relative;
+    top: 50px;
+    left: 60px;
+}
+
+.custom-arrow {
+    position: absolute;
+    font-size: 15px;
+    background-color: rgba(53, 140, 200, 0.4);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 100%; /* Makes the button circular */
+    width: 50px; /* Adjust the width and height as needed */
+    height: 50px;
+    transition: all 0.3s ease;
+}
+
+.custom-arrow:hover {
+    background-color: rgba(53, 140, 200, 1); /* Add hover effect if desired */
+    transition: all 0.3s ease;
+}
+
+.custom-right-arrow {
+    left: 94%;
+}
+
+.custom-left-arrow {
+    left: 3%
+}
+
+/* All Courses style */
+
+.home-ac-top-container {
+    display: flex;
+    position: relative;
+    left: 24%;
+    top: 50px;
+    width: fit-content;
+}
+
+.home-ac-container-text {
+    position: absolute;
+    color: #0E4B74;
+    font-size: 31px;
+}
+
+.home-ac-container-text p {
+    width: max-content;
+}
+
+.home-ac-text-rectangle {
+    position: absolute;
+    top: 35px;
+}
+
+.ac-searchbar {
+    position: absolute;
+    top: 70px;
+}
+
+.ac-searchbar input {
+    border: solid 1px #0E4B74;
+    padding: 7px 10px;
+    border-radius: 5px;
+    padding-right: 600px;
+}
+
+.serchingbar {
+    padding-right: 100px;
+}
+
+.filter {
+    margin-top: 100px;
+}
+
+
+.courses-section-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.filter-section {
+    text-align: center;
+    width: 25%;
+}
+
+.filter-section p {
+    font-size: 30px;
+}
+
+.card-section-container {
+  position: absolute;
+  left: 24%;
+  top: 16.5rem;
+  display: grid;
+  grid-template-columns: repeat(4, 250px);
+  grid-template-rows: repeat(5, 350px);
+  gap: 20px;
+}

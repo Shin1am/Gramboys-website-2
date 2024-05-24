@@ -1,0 +1,225 @@
+.shopping-cart-text {
+    margin-bottom: 20px;
+}
+
+.shopping-cart-text h1 {
+    color: #358CC8;
+    font-size: 25px;
+    position: relative;
+    top: 90px;
+    left: 60px;
+}
+
+.shopping-cart-text button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.shopping-cart-text span {
+    color: #000;
+    font-size: 15px;
+    margin-left: 490px;
+}
+
+.item-list {
+    padding: 100px 0 0 100px;
+}
+
+.price-summarize-card-container,
+.price-summarize-card-container-cp {
+    position: absolute;
+    left: 65%;
+    top: 20%;
+    width: 400px;
+    height: max-content;
+    border: solid 1px #000;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.price-summarize-card-container-cp {
+    margin-top: 75px;
+}
+.price-summarize-details h1 {
+    color: #0E4B74;
+    padding-top: 25px;
+    font-size: 28px;
+    padding-bottom: 30px;
+}
+
+.price-summarize-details h3 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.cart-text {
+    font-size: 18px;
+    margin: 0;
+    color: #358CC8;
+}
+  
+.price-text {
+    color: #358CC8;
+}
+
+.price-card-data {
+    text-align: left;
+}
+
+.price-card-data {
+    text-align: left;
+}
+
+.price-card-data p {
+    margin: 8px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.price-card-data p span {
+    margin-left: 160px;
+    color: #358CC8
+}
+
+
+.price-summarize-details h3:nth-last-child(2) {
+    margin-top: 30px;
+}
+
+.price-summarize-details Button {
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.empty-item-text {
+    padding-left: 18%;
+    position: relative;
+}
+
+
+/* Styles for the dimmed background */
+.dimmed-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    z-index: 1000; /* Ensure it covers other content */
+  }
+  
+  /* Styles for the popup */
+  .confirmation-popup {
+    background-color: white; /* White background for the popup */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the popup */
+    padding: 20px;
+    z-index: 1001; /* Higher z-index than dimmed background */
+    border-radius: 10px;
+    width: max-content;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .confirmation-popup p {
+    margin: 10px 20px 30px ;
+    font-size: 25px;
+  }
+
+  .button-container {
+    margin-bottom: 10px;
+  }
+
+  .button-container button {
+    margin: 0 20px 0 20px;
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-size: 15px;
+    border: none;
+  }
+
+  .btn-btn-primary {
+    background-color: #45d945;
+    transition: all 0.2s ease;
+  }
+
+  .btn-btn-secondary {
+    background-color: #c40e0e;
+    transition: all 0.2s ease;
+  }
+
+  .btn-btn-primary:hover,
+  .btn-btn-secondary:hover {
+    transform: scale(1.05);
+    transition: all 0.2s ease;
+    cursor: pointer;
+  }
+
+
+  /* Choosing Payment style */
+  
+.payment-type-container {
+    width: max-content;
+    height: auto;
+    position: relative;
+    top: 130px;
+    left: 150px;
+    
+}
+
+.payment-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+  -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  margin: 60px;
+  width: 500px;
+  height: 100px;
+}
+
+.payment-list input {
+    margin-right: 15px;
+}
+
+.payment-list h1 {
+    font-size: 20px;
+}
+
+.payment-list:hover {
+    cursor: pointer;
+}
+  
+.promptpay {
+    display: block;
+}
+
+.price-card-button {
+    background-color: #266B9A;
+    border-radius: 10px;
+    color: #fff;
+    padding: 0px 20px;
+    transition: all 0.3s ease-out;
+    border: none;
+    padding: 10px 90px;
+    font-size: 15px;
+}
+
+.price-card-button:hover {
+    transform: scale(1.05);
+}
+  
+  

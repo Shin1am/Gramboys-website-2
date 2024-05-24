@@ -1,0 +1,52 @@
+.Qrcode-page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 80px;
+}
+
+.Qrcode-text {
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.Qrcode-text h1 {
+    color: #C62121;
+    margin-bottom: 20px;
+}
+
+.Qrcode-text p {
+    color: #0E4B74;
+    font-size: 30px;
+}
+
+.Qrcode-button-container {
+    margin-top: 70px;
+}
+.cancel-button {
+    font-size: 25px;
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 6px 65px;
+    background-color: #fff;
+    margin-right: 60px;
+    transition: all 0.2s ease;
+}
+
+.saveQr-button {
+    font-size: 25px;
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 6px 35px;
+    color: #fff;
+    background-color: #0E4B74;
+    transition: all 0.2s ease;
+}
+
+.cancel-button:hover,
+.saveQr-button:hover {
+    transform: scale(1.05);
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
